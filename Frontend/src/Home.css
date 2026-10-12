@@ -1,0 +1,41 @@
+.diary-container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.new-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.diary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.diary-table th,
+.diary-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.view-entry {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}

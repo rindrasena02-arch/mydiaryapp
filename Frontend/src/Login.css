@@ -1,0 +1,52 @@
+/* Container styling */
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+.login-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.login-table td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/* Inputs */
+.login-table input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* Button */
+.login-table button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-table button:hover {
+  background-color: #0056b3;
+}

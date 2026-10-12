@@ -1,0 +1,50 @@
+.new-container {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.new-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.new-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.new-table input,
+.new-table textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.new-table textarea {
+  height: 120px; /* bigger box for description */
+}
+
+.new-table button {
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.new-table button:hover {
+  background: #0056b3;
+}
